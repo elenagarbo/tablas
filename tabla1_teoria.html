@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>Tablas</TITLE>
+</HEAD>
+<BODY>
+<!-- Estructura de las tablas
+<TABLE> </TABLE>
+	<TR> </TR> Inicio y fin de fila
+	<TH> </TH> Inicio y fin de cabecera (sale en negrita)
+	<TD> </TD> Inicio y fin de celda
+
+<Atributos de las tablas
+	CON <TABLE>
+		NOFLOW Impide que haber texto alrededor de la tabla
+		ALIGN=Left|Right|Center|justify
+			*justify (No funciona)
+		UNITS=en|Pixel|Relative (El tipo de medida) //Poco importante
+		WIDTH=n,WIDTH=n% (Anchura de la tabla)
+		HEIGHT=N, HEIGHT=n% (Altura de la tabla)
+		NOWRAP (Para que no se parta la pantalla cuando no quepan en ella
+				las lineas de texto)
+		BORDER=n, BORDER=n% (El ancho del borde de la tabla)
+		CELLSPACING=n (Espacio a dejar entre celdas de la tabla. 
+					El valor por defecto es 2)
+		CELLPADDING=n (Espacio a dejar entre el borde de la tabla y el contenido
+						de la misma. El valor por defecto es 1)
+		BGCOLOR=color (Color de fondo)
+		BORDERCOLOR=color( Color de borde)
+	DEBAJO DEL <TABLE>
+		<CATION ALIGN=top|bottom
+	
+	CON <TR>,<TH>,<TD>
+		ALIGN=Left|Rigth|Justify|Center|Decimal (D=Decimal los numeros con punto decimal
+				 se colocan automaticamente debajo del punto decimal)
+				 *Decimal (no funciona)
+				 *<TH>	por defecto tiene align=center 
+		VALIGN=top(arriba)|middle(medio)|bottom(abajo)
+		NOWRAP (Para que no se parta la pantalla cuando no quepan en ella
+				las lineas de texto)
+		COLSPAN=n (Indica el número de celdas contiguas por la derecha que se expande
+					en horizontal)
+		ROWSPAN=n (Indica el número de celdas contiguas por la derecha que se expande
+					en vertical)
+		ALIGN=Left|Right|Center|justify
+		*justify (No funciona)
+		BGCOLOR=color (Color de fondo)
+		BORDERCOLOR=color( Color de borde)
+		BORDER=n, BORDER=n% (El ancho del borde de la celda)
+-->	
+
+<TABLE BORDER=10% WIDTH=20% HEIGHT=25% 
+	align=center cellpadding="30" cellspacing="10">
+  <CAPTION ALIGN=TOP>EJEMPLO 1 </CAPTION>
+	<TR>
+		<TD>LUNES</TD>
+		<TD>MARTES</TD>
+		<TD>MIERCOLES</TD>
+	</TR>
+	<TR>
+		<TD>JUEVES </TD>
+		<TD>VIERNES </TD>
+		<TD>SABADO </TD>
+	</TR>
+</TABLE>
+<P>
+<br>
+
+<TABLE BORDER=10% WIDTH=20% HEIGHT=25%> 
+  <CAPTION ALIGN=bottom>EJEMPLO 2 </CAPTION>
+	<TR>
+		<TD></TD>
+		<TD>MARTES</TD>
+		<TD>MIERCOLES</TD>
+	</TR>
+	<TR>
+		<TD>JUEVES </TD>
+		<TD>VIERNES </TD>
+		<TD>SABADO </TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>

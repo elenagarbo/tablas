@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE>Formato de tablas con colores</TITLE>
+</HEAD>
+<BODY>
+
+<!--bgcolor=color (color de fondo)
+border=n (ancho del borde)
+bordercolor=color (color de borde)-->
+
+<table cellpadding=7 cellspacing=5 border=5 bgcolor=blue bordercolor=red
+	width=60% height=50% align=center>
+<caption align="center" > <font color=blue>Ejemplo </font> </caption>
+	<tr  align=right> <!--Todas las celdas de esta columa estan alineadas a la derecha-->
+		<th colspan=3><i>dato1</i></th> <!--Cursiva-->
+		<th> <font size=5>dato2</font></th> <!--Tamaño de letra 5-->
+	</tr>
+	<tr  align=center bgcolor=navy> <!--Todas las celdas de esta columa estan centradas-->
+		
+		<!-- color de celda verde,borde amarillo con grosor 9-->
+		<td border=9 bgcolor=green bordercolor=yellow> dato3</td>
+		<td rowspan=2> <font color=red> dato4 </font></td><!--Letra de color rojo-->
+		<td align=left valign=top > dato5 </td><!--Escritura en la parte superior de la celada-->
+		<td> dato6</td>
+	</tr>
+	<tr  align=left> <!--Todas las celdas de esta columa estan alineadas a la izquierda-->
+		<td> <font size=2> dato7</font></td><!--Tamaño de letra 2-->
+		<td> dato8</td>
+		<td> dato9</td>
+	</tr>	
+</table>		
+</BODY>
+</HTML>
